@@ -1,6 +1,8 @@
 # api-requests
 Um projeto (com várias versões) que se comunica com uma API de clima e manipula os dados recebidos para escrever no html.
 
+O site está disponível [aqui](https://andre-su.github.io/api-requests/).
+
 [versão 1 do projeto](https://andre-su.github.io/api-requests/ex4-v1/index.html).
 
 [versão 2 do projeto](https://andre-su.github.io/api-requests/ex4-v2/index.html).
