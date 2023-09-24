@@ -6,7 +6,7 @@ const inputLocal = document.getElementById('getLocal');
 const imgClima = document.getElementById('weather-icon');
 
 //variáveis
-var cidade = 'Montes Claros';
+var cidade;
 var dadosClima;
 const appId = '864eb70685a4d32c8d837c4f0aa57b68';
 var statusClima;
@@ -39,7 +39,7 @@ fetch(urlClima)
     statusClima = ('Local: '+(dadosClima.name)+'<br>'+(dadosClima.weather[0].description)+'<br>Temperatura atual: '+(dadosClima.main.temp)+' °C');
     
     if(dadosClima.weather[0].main=="Clear"){imgClima.src = "images/sunny.png";}
-    else if(dadosClima.weather[0].main=="Cloud"){imgClima.src = "images/cloud.png";}
+    else if(dadosClima.weather[0].main=="Clouds"){imgClima.src = "images/cloud.png";}
     else if(dadosClima.weather[0].main=="Snow"){imgClima.src = "images/snow.png";}
     else if(dadosClima.weather[0].main=="Rain"){imgClima.src = "images/rainy.png";}
     
